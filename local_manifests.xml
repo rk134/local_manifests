@@ -3,8 +3,10 @@
 
 	<remote name="rk134"
 		fetch="https://github.com/rk134" />
+	
 	<remote name="BlackSuan"
 		fetch="https://github.com/Blacksuan19" />
+	
 <!-- Trees -->
 	<project path="device/xiaomi/vince" name="android_device_vince" remote="rk134" revision="11" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
