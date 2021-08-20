@@ -1,0 +1,11 @@
+<?xml version="1.0 encoding="UTF-8"?>
+<manifest>
+
+	<remote name="rk134"
+		fetch="https://github.com/rk134" />
+<!-- Trees -->
+	<project path="device/xiaomi/vince" name="android_device_vince" remote="rk134" revision="R" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name=vendor_xiaomi_vince" remote="rk134" revision="R-1" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
+
+</manifest>
