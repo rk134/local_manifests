@@ -7,8 +7,7 @@
 	<remote name="BlackSuan"
 		fetch="https://github.com/Blacksuan19" />
 	<remote name="clang"
-		fetch="https://github.com/kdrag0n/proton-clang"
-	
+		fetch="https://github.com/kdrag0n/proton-clang" />	
 <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
