@@ -10,8 +10,6 @@
 	<remote name="clang"
 		fetch="https://github.com/kdrag0n" />
 	
-	<remote name="pe"
-		fetch="https://github.com/PixelExperience" />
 	
 <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
