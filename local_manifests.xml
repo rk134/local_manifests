@@ -20,44 +20,6 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
 
-	<!-- remove devices -->
 	
-	<remove-project name="device/common"/>
-	<remove-project name="device/generic/arm64"/>
-	<remove-project name="device/generic/armv7-a-neon"/>
-	<remove-project name="device/generic/x86_64"/>
-	<remove-project name="device/google_car"/>
-	<remove-project name="device/generic/art"/>
-	<remove-project name="device/generic/car"/>
-	<remove-project name="device/generic/common"/>
-	<remove-project name="device/generic/goldfish"/>
-	<remove-project name="device/generic/goldfish-opengl"/>
-	<remove-project name="device/generic/mini-emulator-arm64"/>
-	<remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
-	<remove-project name="device/generic/mini-emulator-x86"/>
-	<remove-project name="device/generic/mini-emulator-x86_64"/>
-	<remove-project name="device/generic/qemu"/>
-	<remove-project name="device/generic/trusty"/>
-	<remove-project name="device/generic/x86"/>
-
-	
-<!-- add projects -->
-	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" groups="qcom,qcom_audio" remote="pe" revision="eleven" />
-	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" groups="pdk,qcom,qcom_display" remote="pe" revision="eleven" />
-	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" groups="pdk,qcom,qcom_media" remote="pe" revision="eleven" />
-	
-	
-	
-<!-- telephony1 -->
-	<remove-project name="platform_frameworks_opt_telephony" />
-	<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pe" revision="eleven" />
-	
-<!--telephony2 -->
-        <remove-project name="android_vendor_codeaurora_telephony" />
-	<project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pe" revision="eleven" />
-	
-<!--frameworks-base -->
-	<remove-project name="platforms_frameworks_base" />
-	<project path="frameworks/base" name="frameworks_base" remote="pe" revision="eleven" />
 	
 </manifest>
