@@ -9,10 +9,46 @@
 	
 	<remote name="clang"
 		fetch="https://github.com/kdrag0n" />
+	
+	<remote name="pe"
+		fetch="https://github.com/PixelExperience" />
+	
 <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
+	
+<!-- remove projects -->
+	<remove-project name="hardware/qcom-caf/msm8996/audio" />
+	<remove-project name="hardware/qcom-caf/msm8996/display" />
+	<remove-project name="hardware/qcom-caf/msm8996/media" />
+	
+	<!-- remove devices -->
+	
+	<remove-project name="device/common"/>
+	<remove-project name="device/generic/arm64"/>
+	<remove-project name="device/generic/armv7-a-neon"/>
+	<remove-project name="device/generic/x86_64"/>
+	<remove-project name="device/google_car"/>
+	<remove-project name="device/generic/art"/>
+	<remove-project name="device/generic/car"/>
+	<remove-project name="device/generic/common"/>
+	<remove-project name="device/generic/goldfish"/>
+	<remove-project name="device/generic/goldfish-opengl"/>
+	<remove-project name="device/generic/mini-emulator-arm64"/>
+	<remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
+	<remove-project name="device/generic/mini-emulator-x86"/>
+	<remove-project name="device/generic/mini-emulator-x86_64"/>
+	<remove-project name="device/generic/qemu"/>
+	<remove-project name="device/generic/trusty"/>
+	<remove-project name="device/generic/x86"/>
+
+	
+<!-- add projects -->
+	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" groups="qcom,qcom_audio" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" groups="pdk,qcom,qcom_display" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" groups="pdk,qcom,qcom_media" remote="pe" revision="eleven" />
+
 	
 </manifest>
