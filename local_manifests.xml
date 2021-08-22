@@ -19,11 +19,7 @@
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
-<!-- remove projects -->
-	<remove-project name="hardware/qcom-caf/msm8996/audio" />
-	<remove-project name="hardware/qcom-caf/msm8996/display" />
-	<remove-project name="hardware/qcom-caf/msm8996/media" />
-	
+
 	<!-- remove devices -->
 	
 	<remove-project name="device/common"/>
