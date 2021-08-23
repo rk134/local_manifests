@@ -17,7 +17,7 @@
 		fetch="https://gitlab.opengapps.org/opengapps/"  />
 	
 	<remote name="line"
-		fetch="https://github.com/LineageOS
+		fetch="https://github.com/LineageOS" />
 	
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
