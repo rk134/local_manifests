@@ -37,6 +37,6 @@
 	<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 	<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 
-	<project path="android/external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
+	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
 	
 </manifest>
