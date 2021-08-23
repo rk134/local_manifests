@@ -17,10 +17,6 @@
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
-<!-- remove project -->
-	<remove-project name="system/libhidl/transport/base/1.0" />
-	
-
 	
 	
 </manifest>
