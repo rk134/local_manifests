@@ -16,6 +16,8 @@
 	<remote name="opengapps-gitlab" 
 		fetch="https://gitlab.opengapps.org/opengapps/"  />
 	
+	<remote name="line"
+		fetch="https://github.com/LineageOS
 	
 <!-- Trees -->
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
@@ -35,6 +37,6 @@
 	<project path="vendor/opengapps/sources/x86" name="x86" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 	<project path="vendor/opengapps/sources/x86_64" name="x86_64" clone-depth="1" revision="master" remote="opengapps-gitlab" />
 
-git clone https://github.com/LineageOS/android_external_ant-wireless_antradio-library.git -b lineage-18.1
+	<project path="android/external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
 	
 </manifest>
