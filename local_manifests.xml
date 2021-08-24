@@ -25,21 +25,9 @@
 	<project path="kernel/xiaomi/vince" name="kernel_dark_ages_vince" remote="BlackSuan" revision="darky" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
-	<remove-project name="device/generic/arm64"/>
-	<remove-project name="device/generic/armv7-a-neon"/>
-	<remove-project name="device/generic/x86_64"/>
-	<remove-project name="device/generic/art"/>
 	<remove-project name="device/generic/car"/>
-	<remove-project name="device/generic/common"/>
 	<remove-project name="device/generic/goldfish"/>
 	<remove-project name="device/generic/goldfish-opengl"/>
-	<remove-project name="device/generic/mini-emulator-arm64"/>
-	<remove-project name="device/generic/mini-emulator-armv7-a-neon"/>
-	<remove-project name="device/generic/mini-emulator-x86"/>
-	<remove-project name="device/generic/mini-emulator-x86_64"/>
-	<remove-project name="device/generic/qemu"/>
-	<remove-project name="device/generic/trusty"/>
-	<remove-project name="device/generic/x86"/>
 	
 	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
 	
