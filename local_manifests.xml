@@ -13,6 +13,9 @@
 	<remote name="line"
 		fetch="https://github.com/LineageOS" />
 	
+	<remote name="pe"
+		fetch="https://github.com/PixelExperience" />
+	
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="11" clone-depth="1" />
@@ -21,6 +24,7 @@
 
 	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
 
-	<project path="hardware/qcom/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8996" remote="line" />
+	<remove-project="hardware/qcom-caf/msm8996/audio" />
+	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" revision="eleven" remote="pe" />
 
 </manifest>
