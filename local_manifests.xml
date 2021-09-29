@@ -21,7 +21,9 @@
 	
 	<remote name="rk1345"
 		fetch="https://github.com/rxhulkxnt44" />
-	
+
+	<remote name="pe"
+		fetch="https://github.com/PixelExperience" />
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk1345" revision="conquer-pixelhal" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="conquer" clone-depth="1" />
