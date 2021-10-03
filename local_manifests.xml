@@ -22,8 +22,6 @@
 	<remote name="rk1345"
 		fetch="https://github.com/rxhulkxnt44" />
 
-	<remote name="pe"
-		fetch="https://github.com/PixelExperience" />
 
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk1345" revision="awaken" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="awaken" clone-depth="1" />
@@ -31,7 +29,7 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
 	<remove-project name="android_device_awaken_sepolicy" />
-	<project path="device/awaken/sepolicy" name="android_device_awaken_sepolicy" remote="rk1345" revision="11-legacy-um" />
+	<project path="device/awaken/sepolicy" name="awaken_sepolicy" remote="rk134" revision="11-legacy-um" />
 	<!--ant-->
 	
 	
