@@ -29,7 +29,8 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
 	<remove-project name="android_device_awaken_sepolicy" />
-	<project path="device/awaken/sepolicy" name="awaken_sepolicy" remote="rk134" revision="11-legacy-um" />
+	
+	<project path="device/awaken/sepolicy" name="android_device_qcom_sepolicy-1" remote="rk134" revision="lineage-18.1-legacy-um" />
 	<!--ant-->
 	
 	
