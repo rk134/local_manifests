@@ -27,7 +27,7 @@
 	
 	<!--remove sepolicy-->
 	<remove-project name="android_device_qcom_sepolicy" />
-	<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="rk134"  />
+	<project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="rk134" revision="11" />
  	<project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy" remote="rk134" revision="11-legacy" />
   	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" remote="rk134" revision="11-legacy-um" />
 	
