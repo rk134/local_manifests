@@ -26,23 +26,10 @@
 	<remote name="sri"
 		fetch="https://github.com/gamehackerever" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk1345" revision="awaken-ares" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="sri" revision="arrow-12.0-staging" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="kernel_threadripper_vince" remote="rk134" revision="lmk-backup" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk1345" revision="syberia-twelve" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="arrow-12.0-staging" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="kernel_threadripper_vince" remote="rk134" revision="threadripper-non-oc" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-	
-	<!--removehals-->
-	
-	<remove-project name="LineageOS/android_hardware_qcom_audio"/>
-	<remove-project name="LineageOS/android_hardware_qcom_display"/>
-	<remove-project name="LineageOS/android_hardware_qcom_media"/>
-	
-	
-	<!--clonehals-->
-	
-	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="twelve" />
-	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="twelve" />
-	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="twelve" />
 	
 
 </manifest>
