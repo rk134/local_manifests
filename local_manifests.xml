@@ -31,5 +31,7 @@
 	<project path="kernel/xiaomi/vince" name="kernel_threadripper_vince" remote="rk134" revision="threadripper-non-oc" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
-
+	<!--sepolicy-->
+	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy" groups="qcom,pdk-qcom" revision="12-legacy-um" remote="rk134" />
+	
 </manifest>
