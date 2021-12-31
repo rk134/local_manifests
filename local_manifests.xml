@@ -25,7 +25,7 @@
 		fetch="https://github.com/PixelExperience" />
 	<remote name="sri"
 		fetch="https://github.com/gamehackerever" />
-	<remote name="arrow"
+	<remote name="Arrow"
 		fetch="https://github.com/ArrowOS" />
 	<remote name="addy"
 		fetch="https://github.com/adnan-44" />
