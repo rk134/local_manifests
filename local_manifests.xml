@@ -14,24 +14,21 @@
 	<remote name="addy"
 		fetch="https://github.com/adnan-44" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="syberia-twelve" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="arrow-12.0-staging" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="crdroid-A11" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="arrow-11.0" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_threadripper_vince" remote="rk134" revision="threadripper-non-oc" clone-depth="1" />
+	
+	<!--remove HALs-->
+	<remove-project name="crdroidandroid/android_hardware_qcom_audio" />
+	<remove-project name="crdroidandroid/android_hardware_qcom_display" />
+	<remove-project name="crdroidandroid/android_hardware_qcom_media" />
+	
+	<!--clone HALs-->
+	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="eleven" />
+	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
+	
+	<!--compiler-->
+	<remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r437112" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
-	
-	<!--bionic-->
-	<remove-project name="platform_bionic" />
-	<project path="bionic" name="platform_bionic" remote="rk134" />
-	
-	<!--sepolicy-->
-	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" revision="arrow-12.0" remote="rk134" />
-	
-	<!--vibrator-->
-	<remove-project name="android_vendor_qcom_opensource_vibrator" />
-	<project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="Arrow" revision="arrow-12.0" />
-	
-	<!--wlan-->
-	<remove-project name="platform_hardware_qcom_wlan" />
-	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve" clone-depth="1" />
-	
 </manifest>
