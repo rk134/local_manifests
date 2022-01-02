@@ -14,15 +14,14 @@
 	<remote name="addy"
 		fetch="https://github.com/adnan-44" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="syb-test" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="syberia-twelve" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="arrow-12.0-staging" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_threadripper_vince" remote="rk134" revision="threadripper-non-oc" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 	
-	<!--clonehals-->
-	<project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996-r_audio" remote="pe" revision="twelve" />
-	<project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996-r_display" remote="pe" revision="twelve" />
-	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="twelve" />
+	<!--bionic-->
+	<remove-project name="platform_bionic" />
+	<project path="bionic" name="platform_bionic" remote="rk134" />
 	
 	<!--sepolicy-->
 	<project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" revision="arrow-12.0" remote="rk134" />
