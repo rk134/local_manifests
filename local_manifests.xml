@@ -16,7 +16,7 @@
 	<remote name="pe"
 		fetch="https://github.com/PixelExperience" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="crdroid-A11" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_crdroid_xiaomi_vince" remote="rk134" revision="eleven-new" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="arrow-11.0" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_threadripper_vince" remote="rk134" revision="threadripper-non-oc" clone-depth="1" />
 	
