@@ -31,6 +31,5 @@
 	<project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996-r_media" remote="pe" revision="eleven" />
 	
 	<!--compiler-->
-	<remove-project name="crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r437112" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 </manifest>
