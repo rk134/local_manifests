@@ -31,7 +31,7 @@
 	<!--remove HALs-->
 	<remove-project name="hardware_qcom_audio" />
 	<remove-project name="hardware_qcom_display" />
-	<remove-project name="hardware_qcom_media" />
+	<remove-project name="android_hardware_qcom_media" />
 	
 	<!--compiler-->
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
