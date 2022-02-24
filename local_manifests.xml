@@ -23,6 +23,8 @@
 		fetch="https://gitlab.com/Panchajanya1999" />
 	<remote name="prajju"
 		fetch="https://github.com/PrajjuS" />
+	<remote name="Rn4"
+		fetch="https://github.com/Redmi-note-4x" />
 	
 	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="rk134" revision="crdroid-staging" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="crdroid-staging" clone-depth="1" />
@@ -48,6 +50,7 @@
 	<!--antradio-library-->
 	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
  
+	<!--frameworks-->
         <remove-project name="crdroidandroid/android_frameworks_native" />
         <project path="frameworks/native" name="android_frameworks_native" remote="Rn4" revision="12.0" />
 
