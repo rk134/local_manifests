@@ -24,14 +24,9 @@
 	<remote name="prajju"
 		fetch="https://github.com/PrajjuS" />
 	
-	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="rk134" revision="komodo-staging" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="prajju" revision="elixir-12" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="uni" revision="stable" clone-depth="1" />
-	
-	<!--remove HALs-->
-	<remove-project name="hardware_qcom_audio" />
-	<remove-project name="hardware_qcom_display" />
-	<remove-project name="android_hardware_qcom_media" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="komodo" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="pixel-12" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="pelt-staging" clone-depth="1" />
 	
 	<!--compiler-->
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
