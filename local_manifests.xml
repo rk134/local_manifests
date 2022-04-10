@@ -24,7 +24,7 @@
 	<remote name="prajju"
 		fetch="https://github.com/PrajjuS" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="komodo" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-komodo" clone-depth="1" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="pixel-12" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="pelt-staging" clone-depth="1" />
 	
