@@ -24,9 +24,9 @@
 	<remote name="prajju"
 		fetch="https://github.com/PrajjuS" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-komodo" clone-depth="1" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince-proton" remote="rk134" revision="twelve.1-proton" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="pixel-12" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="pelt-staging" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="uni" revision="12" clone-depth="1" />
 	
 	<!--compiler-->
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
@@ -34,9 +34,5 @@
 	<!--wlan-->
 	<remove-project name="android_hardware_qcom-caf_wlan"/>
    	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve"/>
-	
-	<!--bootable-recovery-->
-	<remove-project name="bootable_recovery"/>
-	<project path="bootable/recovery" name="bootable_recovery" remote="rk134" revision="12"/>
 
 </manifest>
