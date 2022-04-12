@@ -32,7 +32,7 @@
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
 	
 	<!--wlan-->
-	<remove-project name="android_hardware_qcom-caf_wlan"/>
+	<remove-project name="platform/hardware/qcom/wlan"/>
    	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve"/>
 
 </manifest>
