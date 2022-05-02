@@ -28,15 +28,8 @@
 	<remote name="pe-d-gitlab"
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="pe-d" revision="twelve-plus" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="pe-d-gitlab" revision="twelve" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="twelve-v3" clone-depth="1" />
-	
-	<!--compiler-->
-	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
-	
-	<!--wlan-->
-	<remove-project name="platform_hardware_qcom_wlan"/>
-   	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve"/>
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-aosp" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="prajju" revision="elixir-12" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="r11.0" clone-depth="1" />
 
 </manifest>
