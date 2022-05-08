@@ -28,7 +28,7 @@
 	<remote name="pe-d-gitlab"
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-aosp" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-extended" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="prajju" revision="elixir-12" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="r11.0" clone-depth="1" />
 
