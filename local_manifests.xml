@@ -31,4 +31,6 @@
 	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="r12.0" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="clang" revision="master" clone-depth="1" />
 
+	<remove-project name="platform/frameworks/opt/telephony" />
+	<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rk134" revision="12.x" />
 </manifest>
