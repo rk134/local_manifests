@@ -38,5 +38,5 @@
 	<remove-project name="platform/packages/services/Telephony" />
 	<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="rk134" revision="12.1.x" />
 	<remove-project name="platform_hardware_qcom_wlan" />
-	<project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="rk134" revision="12.1.x" />
+	<project path="hardware/qcom/wlan" name="platform_hardware_qcom_wlan" remote="rk134" revision="12.1.x-caf" />
 </manifest>
