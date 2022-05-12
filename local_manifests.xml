@@ -27,17 +27,12 @@
 		fetch="https://github.com/PrajjuS" />
 	<remote name="Rn4"
 		fetch="https://github.com/Redmi-note-4x" />
+	<remote name="ok"
+		fetch="https://github.com/crdroidandroid" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="crdroid-12.1" clone-depth="1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="pixel-12" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="rk134" revision="v1" clone-depth="1" />
-	
-	<!--compiler-->
-	<project path="prebuilts/clang/host/linux-x86/clang-15" name="atom-x-clang" remote="azure" revision="atom-15" clone-depth="1" />
-	
-	<!--wlan-->
-	<remove-project name="crdroidandroid/android_hardware_qcom_wlan"/>
-   	<project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="addy" revision="twelve"/>
+	<project path="device/xiaomi/vince" name="android_device_xiaomi_vince" remote="ok" revision="12.1" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="PrajjuS" revision="elixir-12" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="ok" revision="12.1" clone-depth="1" />
 	
 	<!--antradio-library-->
 	<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" revision="lineage-18.1" remote="line" />
