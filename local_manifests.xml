@@ -28,16 +28,8 @@
 	<remote name="los"
 		fetch="https://github.com/LineageOS" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-extended" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-xdroid" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="prajju" revision="elixir-12" clone-depth="1" />
 	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="pe-d" revision="twelve-plus" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
-
-	<remove-project name="platform/frameworks/opt/telephony" />
-	<project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" remote="rk134" revision="12.1.x" />
-	<remove-project name="platform/packages/services/Telephony" />
-	<project path="packages/services/Telephony" name="platform_packages_services_Telephony" remote="rk134" revision="12.1.x" />
-	<remove-project name="platform/hardware/qcom/wlan" />
-	<remove-project name="platform_hardware_qcom_wlan" />
-	<project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="rk134" revision="12.1.x-caf" />
 </manifest>
