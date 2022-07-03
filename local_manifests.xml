@@ -28,9 +28,9 @@
 	<remote name="los"
 		fetch="https://github.com/LineageOS" />
 	
-	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="twelve.1-aicp" />
+	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="fluid" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="12.1-wip" clone-depth="1" />
-	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="pe-d" revision="twelve-plus" clone-depth="1" />
+	<project path="kernel/xiaomi/vince" name="android_kernel_xiaomi_vince" remote="uni" revision="12" clone-depth="1" />
 	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
 
 </manifest>
