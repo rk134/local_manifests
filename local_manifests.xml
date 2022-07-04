@@ -40,7 +40,7 @@
 
 <remove-project name="device_qcom_sepolicy" />
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="fluid" revision="fluid" />
-<project path="device/qcom/sepolicy-legacy-um" name="legacy" remote="rk134" revision="12.1" />
+<project path="device/qcom/sepolicy-legacy-um" name="legacy-um" remote="rk134" revision="12.1" />
 
 
 </manifest>
