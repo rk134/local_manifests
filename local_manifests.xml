@@ -27,6 +27,8 @@
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" />
 	<remote name="los"
 		fetch="https://github.com/LineageOS" />
+<remote name=fluid
+              fetch="http://github.com/Project-Fluid" />
 	
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="fluid" />
 	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk134" revision="12.1-wip" clone-depth="1" />
@@ -35,4 +37,10 @@
 
     <remove-project name="platform/hardware/libhardware" />
 	<project path="hardware/libhardware" name="android_hardware_libhardware" remote="line" revision="lineage-19.1" />
+
+<remove-project name="device_qcom_sepolicy" />
+<project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="fluid" revision="fluid" />
+<project path="device/qcom/sepolicy-legacy-um" name="legacy" remote="rk134" revision="12.1" />
+
+
 </manifest>
