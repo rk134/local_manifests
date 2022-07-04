@@ -27,7 +27,7 @@
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" />
 	<remote name="los"
 		fetch="https://github.com/LineageOS" />
-<remote name=fluid
+<remote name="fluid"
               fetch="http://github.com/Project-Fluid" />
 	
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk134" revision="fluid" />
