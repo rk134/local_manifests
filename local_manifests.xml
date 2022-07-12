@@ -17,12 +17,12 @@
 		fetch="https://github.com/adnan-44" />
 	<remote name="sri"
 		fetch="https://github.com/gamehackerever" />
-	<remote name="neutron"
-		fetch="https://gitlab.com/dakkshesh07" />
-	<remote name="prajju"
-		fetch="https://github.com/PrajjuS" />
 	<remote name="azure"
 		fetch="https://gitlab.com/Panchajanya1999" />
+	<remote name="prajju"
+		fetch="https://github.com/PrajjuS" />
+	<remote name="pe-d"
+		fetch="https://github.com/pixelexperience-devices" />
 	<remote name="pe-d-gitlab"
 		fetch="https://gitlab.pixelexperience.org/android/vendor-blobs/" />
 	<remote name="los"
