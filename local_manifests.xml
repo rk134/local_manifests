@@ -17,8 +17,8 @@
 		fetch="https://github.com/adnan-44" />
 	<remote name="sri"
 		fetch="https://github.com/gamehackerever" />
-	<remote name="neutron"
-		fetch="https://gitlab.com/dakkshesh07" />
+	<remote name="azure"
+		fetch="https://gitlab.com/Panchajanya1999" />
 	<remote name="prajju"
 		fetch="https://github.com/PrajjuS" />
 	<remote name="pe-d"
@@ -29,10 +29,10 @@
 		fetch="https://github.com/LineageOS" />
 	
 	<project path="device/xiaomi/vince" name="device_xiaomi_vince" remote="rk1345" revision="arrow-12.1" />
-	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="twelve-plus-wip" clone-depth="1" />
-	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="rk1345" revision="twelve-plus-wip" clone-depth="1" />
+	<project path="vendor/xiaomi/vince" name="vendor_xiaomi_vince" remote="rk1345" revision="arrow-12.1" clone-depth="1" />
+	<project path="vendor/xiaomi/msm8953-common" name="vendor_xiaomi_msm8953-common" remote="rk1345" revision="arrow-12.1" clone-depth="1" />
 	<project path="device/xiaomi/msm8953-common" name="device_xiaomi_msm8953-common" remote="rk1345" revision="arrow-12.1" />
 	<project path="kernel/xiaomi/vince" name="kernel_xiaomi_vince" remote="pe-d" revision="twelve-plus" clone-depth="1" />
-	<project path="prebuilts/clang/host/linux-x86/clang-15" name="=neutron-clang" remote="neutron" revision="Neutron-15" clone-depth="1" />
+	<project path="prebuilts/clang/host/linux-x86/clang-15" name="azure-clang" remote="azure" revision="main" clone-depth="1" />
 
 </manifest>
