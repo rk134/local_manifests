@@ -5,7 +5,7 @@
 		fetch="https://github.com/rk134" />
 	<remote name="clang"
 		fetch="https://github.com/kdrag0n" />
-	<remote name="dib"
+	<remote name="dib12"
 		fetch="https://github.com/dib12" />
 	<remote name="uni"
 		fetch="https://github.com/Ghostmaster69-dev" />
